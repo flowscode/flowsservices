@@ -38,7 +38,7 @@ public class CustomerService {
         NotificationRequest notificationRequest = new NotificationRequest(
                 customer.getId(),
                 customer.getEmail(),
-                String.format("Hi %s, welcome to flowcode...", customer.getFirstName())
+                String.format("Hi %s, welcome to flowcode's app, you have been registered...", customer.getFirstName())
         );
 
         producer.publish(
