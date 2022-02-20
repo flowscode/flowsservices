@@ -6,3 +6,17 @@
 /eureka-server/target/
 /fraud/target/
 /notification/target/
+/docker-compose.yml
+/pom.xml
+/amqp/pom.xml
+/apigw/src/main/resources/application.yml
+/apigw/pom.xml
+/clients/pom.xml
+/customer/src/main/resources/application.yml
+/customer/pom.xml
+/eureka-server/src/main/resources/application.yml
+/eureka-server/pom.xml
+/fraud/src/main/resources/application.yml
+/fraud/pom.xml
+/notification/src/main/resources/application.yml
+/notification/pom.xml
