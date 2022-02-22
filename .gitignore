@@ -21,6 +21,6 @@
 /notification/src/main/resources/application.yml
 /notification/pom.xml
 #/eureka-server/src/main/resources/application-docker.yml
-
+/minikube-darwin-arm64
 *.yml
 *.class
