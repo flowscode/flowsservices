@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="511b016e-eba6-4cf1-bac1-ae11bbcb1d57" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flowsservices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flowsservices.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/flowcode/clients/fraud/FraudClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/flowcode/clients/fraud/FraudClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/flowcode/clients/notification/NotificationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/flowcode/clients/notification/NotificationClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/flowcode/customer/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/flowcode/customer/CustomerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/com/flowcode/fraud/FraudApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/com/flowcode/fraud/FraudApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/flowcode/notification/NotificationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/com/flowcode/notification/NotificationApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +83,9 @@
     </option>
   </component>
   <component name="ProjectId" id="25FK1ZypKPRtLZSimQdlSSOxSzV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -93,7 +99,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/notification/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/clients/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -109,11 +115,11 @@
       <recent name="com.flowcode.customer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/clients/src/main/resources" />
       <recent name="$PROJECT_DIR$/notification/src/main/resources" />
       <recent name="$PROJECT_DIR$/fraud/src/main/resources" />
       <recent name="$PROJECT_DIR$/customer/src/main/resources" />
       <recent name="$PROJECT_DIR$/eureka-server/src/main/resources" />
-      <recent name="$PROJECT_DIR$/apigw/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.flowcode.clients.fraud" />
@@ -127,7 +133,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NotificationApplication">
+  <component name="RunManager" selected="Spring Boot.FraudApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,6 +168,9 @@
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.flowcode.customer.CustomerApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <envs>
+        <env name="SPRING_PROFILES_ACTIVE" value="default" />
+      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -190,6 +199,9 @@
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.flowcode.fraud.FraudApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <envs>
+        <env name="SPRING_PROFILES_ACTIVE" value="default" />
+      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -203,6 +215,10 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.flowcode.notification.NotificationApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <envs>
+        <env name="SPRING_PROFILES_ACTIVE" value="default" />
+      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -216,9 +232,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.CustomerApplication" />
         <item itemvalue="Spring Boot.NotificationApplication" />
         <item itemvalue="Spring Boot.FraudApplication" />
+        <item itemvalue="Spring Boot.CustomerApplication" />
         <item itemvalue="Spring Boot.ApiGWApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
       </list>
@@ -237,7 +253,8 @@
       <workItem from="1645136637468" duration="67655000" />
       <workItem from="1645327624916" duration="19530000" />
       <workItem from="1645500290917" duration="5052000" />
-      <workItem from="1645506138738" duration="5960000" />
+      <workItem from="1645506138738" duration="7664000" />
+      <workItem from="1646262086114" duration="4949000" />
     </task>
     <servers />
   </component>
